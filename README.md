@@ -71,36 +71,10 @@ This project employs a diverse array of machine learning models to predict fossi
 
 ### Machine Learning Models:
 
-🦴 **AdaBoostRegressor:** An ensemble technique that combines multiple weak regression models to form a strong predictive model, enhancing accuracy by focusing on misclassified data points.  
-🌳 **BaggingRegressor:** A method that uses bootstrapping to create multiple subsets of the training data, training a separate model on each subset and averaging their predictions to reduce variance.  
-📊 **BayesianRidgeRegressor:** A linear regression model that incorporates Bayesian inference, providing a probabilistic approach to regression with uncertainty quantification.  
-🌱 **CatBoostRegressor:** A gradient boosting algorithm optimized for categorical features, capable of handling complex datasets while reducing overfitting.  
-🌲 **DecisionTreeRegressor:** A model that splits the dataset into subsets based on feature values, creating a tree-like structure to make predictions. Its simplicity allows for easy interpretation.  
-💡 **ElasticNetRegressor:** A linear regression model that combines L1 and L2 regularization, balancing between Ridge and Lasso regression to improve model performance on correlated features.  
-🎲 **Extra Trees Regressor:** An ensemble method that builds multiple decision trees using random subsets of features, enhancing model robustness and accuracy.  
-🔬 **Gradient Boosting Regression:** An ensemble technique that builds models sequentially, each one correcting errors of the previous model to improve predictive performance. It combines the predictions of several base estimators, typically decision trees, to produce a strong final model.  
-🛠️ **HuberRegressor:** A regression model that is robust to outliers by combining the squared loss for small errors and absolute loss for larger errors, minimizing the impact of outliers on predictions.  
-🌐 **IsotonicRegression:** A non-parametric regression technique that fits a free-form line to the data while ensuring that the predictions are monotonically increasing or decreasing.  
-👥 **K-NearestNeighborsRegressor:** A non-parametric method that predicts the value of a sample based on the average value of its k-nearest neighbors in the feature space.  
-🌀 **Kernel Ridge Regression:** A regression technique that combines Ridge Regression with the kernel trick, allowing it to model complex relationships by mapping input features into a high-dimensional feature space.  
-🔄 **LassoLarsRegressor:** A linear regression model that applies L1 regularization using the Least Angle Regression algorithm, effectively performing variable selection and regularization.  
-🧮 **LassoRegression:** A linear regression model that applies L1 regularization to minimize the sum of absolute errors, promoting sparsity in the feature set.  
-⚡️ **LightGBM:** A gradient boosting framework that uses tree-based learning algorithms, optimized for speed and efficiency, particularly suited for large datasets.  
 🗳 **LinearRegression:** A fundamental regression technique that models the relationship between input features and a continuous target variable using a linear equation.  
-🛡️ **PassiveAggressiveRegression:** An online learning algorithm that updates the model incrementally with each new data point, combining passive and aggressive approaches for robustness.  
-🎯 **Poisson Regression:** A model suited for count data, predicting the logarithm of expected counts, useful for data where the response variable represents counts or rates.  
-🔢 **Polynomial Regression:** An extension of linear regression that models the relationship between the independent variable and the dependent variable as an nth-degree polynomial.  
-🚧 **Quantile Regression:** A regression technique that estimates the conditional quantiles of the response variable, providing a more comprehensive view of the possible outcomes.  
 🌳 **Random Forest Regression:** An ensemble method that constructs multiple decision trees and averages their predictions to enhance accuracy and control overfitting.  
-🛡️ **Ridge Regression:** A linear regression model that incorporates L2 regularization to prevent overfitting by penalizing large coefficients.  
-🔗 **Stacking Regression:** An ensemble technique that combines multiple regression models to improve predictive accuracy by learning how to best combine their predictions.   
-🎲 **Stochastic Gradient Descent Regression (SGD):** A linear regression technique that uses stochastic gradient descent for optimization, allowing for efficient training on large datasets.  
 🧠 **SVR (Support Vector Regression):** A regression technique that uses support vector machines to fit the best line within a specified margin, capable of handling non-linear relationships.   
 🔍 **SVR with GridSearchCV:** A support vector regression model optimized using grid search to find the best hyperparameters for improved predictive performance.   
- 🌈 **TransformedTargetRegressor:** A regression technique that applies a transformation to the target variable, improving model accuracy by adapting to data distributions.   
-💡 **Tweedie Regression:** A generalized linear model that can predict outcomes that follow a Tweedie distribution, useful for modeling various types of data including counts and continuous outcomes.   
-⚙️ **Voting Regression:** An ensemble method that combines predictions from multiple regression models, producing a final prediction based on majority voting or averaging.  
-🚀 **XGBoost Regression:** An efficient and scalable boosting method that builds decision trees sequentially, correcting errors made by previous trees to enhance predictive performance. 
 
 The [Models](https://github.com/AnuLikithaImmadisetty/Fossil-Age-Estimation/tree/main/Models) used here is available here!
 
